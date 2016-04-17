@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dana Chou</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="nav">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand smoothScroll" href="index.html">DANA CHOU</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right" id="navbarCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#top" class="smoothScroll">Home</a></li>
+                    <li><a href="#overview" class="smoothScroll">Overview</a></li>
+                    <li><a href="#people" class="smoothScroll">People</a></li>              
+                    <li><a href="#nature" class="smoothScroll">Nature</a></li>
+                    <li><a href="#misc" class="smoothScroll">Misc</a></li>
+                    <li><a href="#about" class="smoothScroll">About</a></li>
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div id="top">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 name">
+                <div class="danachou"><strong>DANA CHOU</strong></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="overview" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                OVERVIEW
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-1">
+                <div>
+                    <img src="images/people/People_20.jpg" class="img1row1 pad">
+                    <img src="images/nature/Nature_14.jpg" class="img1row1 pad">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div>
+                    <img src="images/misc/Misc_1.jpg" class="img1row1 pad">
+                    <img src="images/people/People_17.jpg" class="img1row1 pad">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div>
+                    <img src="images/people/People_19.jpg" class="img1row1 pad">
+                    <img src="images/nature/Nature_11.jpg" class="img1row1 pad">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div>
+                    <img src="images/misc/Misc_3.jpg" class="img1row1 pad">
+                    <img src="images/people/People_1.jpg" class="img1row1 pad">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div>
+                    <img src="images/misc/Misc_5.jpg" class="img1row1 pad">
+                    <img src="images/people/People_18.jpg" class="img1row1 pad">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="people" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                PEOPLE
+            </div>
+        </div>
+        <div class="col-sm-6 col-sm-offset-3 fadeinpeople">
+                <img src="images/people/People_1.jpg" class="peopleslide">
+                <img src="images/people/People_2.jpg" class="peopleslide people2">
+                <img src="images/people/People_4.jpg" class="peopleslide">
+                <img src="images/people/People_5.jpg" class="peopleslide">
+                <img src="images/people/People_6.jpg" class="peopleslide people2">
+                <img src="images/people/People_7.jpg" class="peopleslide">
+                <img src="images/people/People_8.jpg" class="peopleslide people2">
+                <img src="images/people/People_9.jpg" class="peopleslide people2">
+                <img src="images/people/People_10.jpg" class="peopleslide">
+                <img src="images/people/People_11.jpg" class="peopleslide people2">
+                <img src="images/people/People_12.jpg" class="peopleslide">
+                <img src="images/people/People_13.jpg" class="peopleslide">
+                <img src="images/people/People_14.jpg" class="peopleslide people2">
+                <img src="images/people/People_15.jpg" class="peopleslide">
+                <img src="images/people/People_16.jpg" class="peopleslide people2">
+                <img src="images/people/People_17.jpg" class="peopleslide">
+                <img src="images/people/People_18.jpg" class="peopleslide people2">
+                <img src="images/people/People_19.jpg" class="peopleslide">
+                <img src="images/people/People_20.jpg" class="peopleslide">
+                <img src="images/people/People_21jpg.jpg" class="peopleslide people2">
+                <img src="images/people/People_22.jpg" class="peopleslide">
+                <img src="images/people/People_23.jpg" class="peopleslide people2">
+        </div>
+    </div>
+    
+    
+    <div id="nature" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                NATURE
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 fadein2">
+                <img src="images/nature/Nature_1.jpg" class="peopleslide">
+                <img src="images/nature/Nature_2.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_3.jpg" class="peopleslide">
+                <img src="images/nature/Nature_4.jpg" class="peopleslide">
+                <img src="images/nature/Nature_5.jpg" class="peopleslide">
+                <img src="images/nature/Nature_6.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_7.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_8.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_9.jpg" class="peopleslide">
+                <img src="images/nature/Nature_10.jpg" class="peopleslide">
+                <img src="images/nature/Nature_11.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_12.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_13.jpg" class="peopleslide">
+                <img src="images/nature/Nature_14.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_15.jpg" class="peopleslide">
+                <img src="images/nature/Nature_16.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_17.jpg" class="peopleslide">
+                <img src="images/nature/Nature_18.jpg" class="peopleslide">
+                <img src="images/nature/Nature_19.jpg" class="peopleslide">
+                <img src="images/nature/Nature_20.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_21.jpg" class="peopleslide">
+                <img src="images/nature/Nature_22.jpg" class="peopleslide people2">
+                <img src="images/nature/Nature_23.jpg" class="peopleslide people2">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="misc" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                MISC
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 fadein3">
+                <img src="images/misc/Misc_1.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_2.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_3.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_4.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_5.jpg" class="peopleslide">
+                <img src="images/misc/Misc_6.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_7.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_8.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_9.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_10.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_12.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_13.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_14.jpg" class="peopleslide">
+                <img src="images/misc/Misc_15.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_16.jpg" class="peopleslide people2">
+                <img src="images/misc/Misc_17.jpg" class="peopleslide">
+                <img src="images/misc/Misc_18.jpg" class="peopleslide">
+                <img src="images/misc/Misc_19.jpg" class="peopleslide">
+                <img src="images/misc/Misc_20.jpg" class="peopleslide">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="about" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                ABOUT
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="images/other/EmbarassingHeadshot.jpg" class="headshot">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-2 pad">
+                <div class="student"><strong>STUDENT</strong></div>
+                <div>I am currently a junior studying visual arts at the Bergen County Academies in Hackensack, NJ (ranked #5 in the US by Newsweek Magazine). I have studied the fine arts, digital photography, and graphic communications with the hopes of pursuing a future path in the design industry. During my time at BCA, I have designed for various clubs and organizations, as well as heading, designing, and constructing multiple school projects and events. My artwork has been featured in several exhibits, and has won numerous awards including a recent Honorable Mention and Gold Key Scholastic Art and Writing Award.</div>
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-2 pad">
+                <div class="student"><strong>ATHLETE</strong></div>
+                <div>Aside from my studies, I am a D rated competitive and high school varsity sabre fencer. On the national competitive level, I represent the Bergen Fencing Club in Ho-ho-kus, NJ. I finished 9th at the women's sabre Division II event at the 2015 Summer National Championships this past summer in San Jose, California. On the high school level I represent the Bergen Tech Knights as the captain of the #4 girls' sabre squad as well as the #3 girls' overall team in the state. This past 2015-2016 season, I helped my team win the County Championship and State Sectional titles. I have been fencing for 2 years, and I compete around the country all year round.</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="contact" class="font">
+        <div class="row">
+            <div class="col-sm-12 title">
+                CONTACT
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 contactinfo">
+                <span style="color: black">E-MAIL:</span> dccusr@gmail.com <span style="color: black">/ FACEBOOK:</span> Dana Chou <span style="color: black">/ INSTAGRAM:</span> @dana.chou
+            </div>
+        </div> 
+        <div class="row thearrow">
+            <a href="#top" class="smoothScroll">
+                <img src="images/other/arrows.svg" id="arrow">
+            </a>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+            $(function() {
+                $(window).scroll(function(){
+					var scrollTop = $(window).scrollTop();
+					if(scrollTop != 0)
+						$('#nav').stop().animate({'opacity':'0.05'},50);
+					else	
+						$('#nav').stop().animate({'opacity':'1'},400);
+				});
+				
+				$('#nav').hover(
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('#nav').stop().animate({'opacity':'1'},400);
+						}
+					},
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('#nav').stop().animate({'opacity':'0.05'},400);
+						}
+					}
+				);
+            });
+    </script>
+    <script src="/js/wow.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script> new WOW().init(); </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

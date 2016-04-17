@@ -1,0 +1,516 @@
+html {
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.navbar-custom {
+    
+}
+
+.navbar-brand {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.nav.navbar-nav {
+    background-color: transparent;
+}
+
+.navbar-custom ul.nav li a {
+	font-size: 12px;
+	letter-spacing: 1px;
+    color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: white;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    background-color: white;
+}
+
+.navbar-custom {
+    background-color: white;
+    text-align: center;
+}
+
+#nav {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background:white none;
+    color: black;
+}
+
+
+#top {
+    height: 630px;
+    background-image: url(../../images/other/Home_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-size: 80px;
+    padding-top: 275px;
+    height: 80px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.danachou {
+    border: solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+    color: #C0C0C0;
+}
+
+.verticalline {
+    border-left: 1px solid gray;
+    height: 350px;
+}
+
+.title {
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#overview {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#people {
+    padding-top: 50px;
+    padding-bottom: 450px;
+}
+
+#nature {
+    padding-top: 50px;
+    padding-bottom: 450px;
+}
+
+#misc {
+    padding-top: 50px;
+    padding-bottom: 450px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+#contact {
+    padding-top: 50px;
+}
+
+.contactinfo {
+    padding-bottom: 50px;
+}
+
+.thearrow {
+    padding-bottom: 50px;
+}
+
+#arrow {
+    -webkit-transform: rotate(270deg);
+    transform: (270deg);
+}
+
+.student {
+    font-size: 20px;
+    color: black;
+    padding-top: 30px;
+}
+
+.pad {
+    padding-bottom: 50px;
+}
+
+.img1row1 {
+    width: 200px;
+}
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  2.28%   { opacity: 1; }
+  4.55%  { opacity: 1; }
+  6.83%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadeinpeople {
+
+}
+
+.fadeinpeople img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade; 
+    animation-duration: 110s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadeinpeople img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadeinpeople img:nth-child(2) { 
+    animation-delay: 5s;  
+}
+
+.fadeinpeople img:nth-child(3) { 
+    animation-delay: 10s;  
+}
+
+.fadeinpeople img:nth-child(4) { 
+    animation-delay: 15s;  
+}
+
+.fadeinpeople img:nth-child(5) { 
+    animation-delay: 20s;  
+}
+
+.fadeinpeople img:nth-child(6) { 
+    animation-delay: 25s;  
+}
+
+.fadeinpeople img:nth-child(7) { 
+    animation-delay: 30s;  
+}
+
+.fadeinpeople img:nth-child(8) { 
+    animation-delay: 35s;  
+}
+
+.fadeinpeople img:nth-child(9) { 
+    animation-delay: 40s;  
+}
+
+.fadeinpeople img:nth-child(10) { 
+    animation-delay: 45s;  
+}
+
+.fadeinpeople img:nth-child(11) { 
+    animation-delay: 50s;  
+}
+
+.fadeinpeople img:nth-child(12) { 
+    animation-delay: 55s;  
+}
+
+.fadeinpeople img:nth-child(13) { 
+    animation-delay: 60s;  
+}
+
+.fadeinpeople img:nth-child(14) { 
+    animation-delay: 65s;  
+}
+
+.fadeinpeople img:nth-child(15) { 
+    animation-delay: 70s;  
+}
+
+.fadeinpeople img:nth-child(16) { 
+    animation-delay: 75s;  
+}
+
+.fadeinpeople img:nth-child(17) { 
+    animation-delay: 80s;  
+}
+
+.fadeinpeople img:nth-child(18) { 
+    animation-delay: 85s;  
+}
+
+.fadeinpeople img:nth-child(19) { 
+    animation-delay: 90s;  
+}
+
+.fadeinpeople img:nth-child(20) { 
+    animation-delay: 95s;  
+}
+
+.fadeinpeople img:nth-child(21) { 
+    animation-delay: 100s;  
+}
+
+.fadeinpeople img:nth-child(22) { 
+    animation-delay: 105s;  
+}
+
+.peopleslide {
+    width: 300px;
+}
+
+#people img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+@keyframes fade2 {
+  0%   { opacity: 0; }
+  2.18%   { opacity: 1; }
+  4.35%  { opacity: 1; }
+  6.53%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadein2 {
+
+}
+
+.fadein2 img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade; 
+    animation-duration: 115s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadein2 img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadein2 img:nth-child(2) { 
+    animation-delay: 5s;  
+}
+
+.fadein2 img:nth-child(3) { 
+    animation-delay: 10s;  
+}
+
+.fadein2 img:nth-child(4) { 
+    animation-delay: 15s;  
+}
+
+.fadein2 img:nth-child(5) { 
+    animation-delay: 20s;  
+}
+
+.fadein2 img:nth-child(6) { 
+    animation-delay: 25s;  
+}
+
+.fadein2 img:nth-child(7) { 
+    animation-delay: 30s;  
+}
+
+.fadein2 img:nth-child(8) { 
+    animation-delay: 35s;  
+}
+
+.fadein2 img:nth-child(9) { 
+    animation-delay: 40s;  
+}
+
+.fadein2 img:nth-child(10) { 
+    animation-delay: 45s;  
+}
+
+.fadein2 img:nth-child(11) { 
+    animation-delay: 50s;  
+}
+
+.fadein2 img:nth-child(12) { 
+    animation-delay: 55s;  
+}
+
+.fadein2 img:nth-child(13) { 
+    animation-delay: 60s;  
+}
+
+.fadein2 img:nth-child(14) { 
+    animation-delay: 65s;  
+}
+
+.fadein2 img:nth-child(15) { 
+    animation-delay: 70s;  
+}
+
+.fadein2 img:nth-child(16) { 
+    animation-delay: 75s;  
+}
+
+.fadein2 img:nth-child(17) { 
+    animation-delay: 80s;  
+}
+
+.fadein2 img:nth-child(18) { 
+    animation-delay: 85s;  
+}
+
+.fadein2 img:nth-child(19) { 
+    animation-delay: 90s;  
+}
+
+.fadein2 img:nth-child(20) { 
+    animation-delay: 95s;  
+}
+
+.fadein2 img:nth-child(21) { 
+    animation-delay: 100s;  
+}
+
+.fadein2 img:nth-child(22) { 
+    animation-delay: 105s;  
+}
+
+.fadein2 img:nth-child(23) { 
+    animation-delay: 110s;  
+}
+
+#nature img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+@keyframes fade3 {
+  0%   { opacity: 0; }
+  2.18%   { opacity: 1; }
+  4.35%  { opacity: 1; }
+  6.53%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadein3 {
+
+}
+
+.fadein3 img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade; 
+    animation-duration: 95s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadein3 img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadein3 img:nth-child(2) { 
+    animation-delay: 5s;  
+}
+
+.fadein3 img:nth-child(3) { 
+    animation-delay: 10s;  
+}
+
+.fadein3 img:nth-child(4) { 
+    animation-delay: 15s;  
+}
+
+.fadein3 img:nth-child(5) { 
+    animation-delay: 20s;  
+}
+
+.fadein3 img:nth-child(6) { 
+    animation-delay: 25s;  
+}
+
+.fadein3 img:nth-child(7) { 
+    animation-delay: 30s;  
+}
+
+.fadein3 img:nth-child(8) { 
+    animation-delay: 35s;  
+}
+
+.fadein3 img:nth-child(9) { 
+    animation-delay: 40s;  
+}
+
+.fadein3 img:nth-child(10) { 
+    animation-delay: 45s;  
+}
+
+.fadein3 img:nth-child(11) { 
+    animation-delay: 50s;  
+}
+
+.fadein3 img:nth-child(12) { 
+    animation-delay: 55s;  
+}
+
+.fadein3 img:nth-child(13) { 
+    animation-delay: 60s;  
+}
+
+.fadein3 img:nth-child(14) { 
+    animation-delay: 65s;  
+}
+
+.fadein3 img:nth-child(15) { 
+    animation-delay: 70s;  
+}
+
+.fadein3 img:nth-child(16) { 
+    animation-delay: 75s;  
+}
+
+.fadein3 img:nth-child(17) { 
+    animation-delay: 80s;  
+}
+
+.fadein3 img:nth-child(18) { 
+    animation-delay: 85s;  
+}
+
+.fadein3 img:nth-child(19) { 
+    animation-delay: 90s;  
+}
+
+#misc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.headshot {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.people2 {
+    padding-top: 125px;
+}
