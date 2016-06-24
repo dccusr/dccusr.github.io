@@ -70,7 +70,7 @@ html {
 
 #top {
     height: 100%;
-    background-image: url(../../images/other/Home_Background.jpg);
+    background-image: url(../../images/other/New_Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,9 +84,9 @@ html {
 }
 
 .danachou {
-    border: solid #D2D0D0;
+    border: solid black;
     text-decoration: none;
-    color: #D2D0D0;
+    color: black;
 }
 
 .font {
@@ -518,3 +518,13 @@ html {
 .people2 {
     padding-top: 125px;
 }
+
+
+
+/* .danachou {
+    border: solid #D2D0D0;
+    text-decoration: none;
+    color: #D2D0D0;
+}
+
+*/
