@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -265,7 +265,7 @@
                 $(window).scroll(function(){
 					var scrollTop = $(window).scrollTop();
 					if(scrollTop != 0)
-						$('#nav').stop().animate({'opacity':'0.05'},50);
+						$('#nav').stop().animate({'opacity':'0.15'},50);
 					else	
 						$('#nav').stop().animate({'opacity':'1'},400);
 				});
@@ -280,7 +280,7 @@
 					function (e) {
 						var scrollTop = $(window).scrollTop();
 						if(scrollTop != 0){
-							$('#nav').stop().animate({'opacity':'0.05'},400);
+							$('#nav').stop().animate({'opacity':'0.15'},400);
 						}
 					}
 				);
