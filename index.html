@@ -4,7 +4,7 @@
     <title>Dana Chou</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -32,31 +32,72 @@
     		});
 		});
 	</script>
+    <style>
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+a:active {
+    text-decoration: none;
+}
+        
+a { 
+	text-decoration: none; 
+	-webkit-transition: background-color .5s linear, color .5s linear;
+	-moz-transition: background-color .5s linear, color .5s linear;
+	-o-transition: background-color .5s linear, color .5s linear;
+	-ms-transition: background-color .5s linear, color .5s linear;
+	transition: background-color .5s linear, color .5s linear;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+}
+    </style>
 </head>
-<body>
+<body class="">
     
+    
+    
+    
+                <!--        NAVBAR      -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="nav">
-        <div class="container">
+        <div class="container navbar-inner">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand smoothScroll" href="index.html">DANA CHOU</a>
+                <a class="navbar-brand">Dana Chou</a>
             </div>
             <div class="navbar-collapse collapse navbar-right" id="navbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top" class="smoothScroll">Home</a></li>
-                    <li><a href="#overview" class="smoothScroll">Overview</a></li>
-                    <li><a href="#people" class="smoothScroll">People</a></li>              
-                    <li><a href="#nature" class="smoothScroll">Nature</a></li>
-                    <li><a href="#misc" class="smoothScroll">Misc</a></li>
-                    <li><a href="#about" class="smoothScroll">About</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#people">People</a></li>
+                    <li><a href="#nature">Nature</a></li>
+                    <li><a href="#misc">Misc</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
+    
+    
+    
+    
+    
+            <!--        TOP         -->
     
     <div id="top">
         <div class="row">
@@ -66,6 +107,9 @@
         </div>
     </div>
     
+    
+    
+            <!--        OVERVIEW        -->
     
     <div id="overview" class="font">
         <div class="row">
@@ -108,6 +152,13 @@
     </div>
     
     
+    
+    
+    
+    
+    
+    
+            <!--        PEOPLE      -->
     <div id="people" class="font">
         <div class="row">
             <div class="col-sm-12 title">
@@ -141,6 +192,9 @@
     </div>
     
     
+    
+    
+            <!--        NATURE      -->
     <div id="nature" class="font">
         <div class="row">
             <div class="col-sm-12 title">
@@ -177,6 +231,10 @@
     </div>
     
     
+    
+    
+    
+            <!--        MISC        -->
     <div id="misc" class="font">
         <div class="row">
             <div class="col-sm-12 title">
@@ -209,6 +267,9 @@
     </div>
     
     
+    
+    
+            <!--        ABOUT       -->
     <div id="about" class="font">
         <div class="row">
             <div class="col-sm-12 title">
@@ -234,6 +295,9 @@
     </div>
     
     
+    
+    
+            <!--        CONTACT     -->
     <div id="contact" class="font">
         <div class="row">
             <div class="col-sm-12 title">
@@ -251,9 +315,6 @@
             </a>
         </div>
     </div>
-    
-    
-    
     
     
     
@@ -292,11 +353,16 @@
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
     <script> new WOW().init(); </script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
