@@ -32,16 +32,16 @@ body {
 
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: white;
+    background-color: transparent;
 }
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    background-color: white;
+    background-color: transparent;
 }
 
 .navbar-custom {
-    background-color: white;
+    background-color: transparent;
     text-align: center;
     font-size: 12px;
 }
